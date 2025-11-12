@@ -1,0 +1,21 @@
+{
+  "compilerOptions": {
+    /* Base Options */
+    "target": "ES2022", 
+    "lib": ["ES2020"], 
+    "module": "NodeNext", 
+    "moduleResolution": "NodeNext", 
+    "esModuleInterop": true, 
+    "allowJs": true, 
+    "resolveJsonModule": true, 
+    "skipLibCheck": true, 
+    "isolatedModules": true,
+    "strict": true,
+    "outDir": "./dist",
+    "baseUrl": "./src",
+    "paths": {
+      "#*": ["*"]
+    }
+  },
+  "include": ["src"]
+}
